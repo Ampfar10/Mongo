@@ -1,0 +1,10 @@
+<form action="/update" method="POST">
+  <input type="hidden" name="document_id" value="{{ document._id }}">
+  <label>Field 1:</label>
+  <input type="text" name="field1" value="{{ document.field1 }}"><br>
+  <label>Field 2:</label>
+  <input type="text" name="field2" value="{{ document.field2 }}"><br>
+  <label>Field 3:</label>
+  <input type="text" name="field3" value="{{ document.field3 }}"><br>
+  <input type="submit" value="Update">
+</form>
